@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at BCD_counter.v(22): always construct contains both blocking and non-blocking assignments File: /home/chris/dev/ecen2350/Project_2/BCD_counter.v Line: 22
