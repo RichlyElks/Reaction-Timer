@@ -28,11 +28,16 @@ Pressing the button one more time will return the player to the  and will displa
 
 ### Results
 
-(randomness histogram)
+<p align="center">
+  <img src="https://github.com/RichlyElks/Reaction-Timer/blob/master/histogram_delay.png">
+</p>
 
 The random values plotted from a sample size of n = 40. They are two-digit hexadecimal values. The first is the value given from the linear-feedback shift register, and the second one is the binary complement of it. These values are then put into the eight most significant bits of a 12-bit value, which is then fed into the delay submodule where the total value is decremented by one every millisecond.
 
-(video)
+<p align="center">
+	<a href="https://www.youtube.com/watch?v=B9TirOliNBM" target="_blank">
+	<img src="http://img.youtube.com/vi/B9TirOliNBM/0.jpg" alt="Reaction Timer Video" width="240" height="180" border="10" /></a>
+</p>
 
 Here are the results of subjecting my co-workers to a reaction time competition:
 
